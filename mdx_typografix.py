@@ -2,7 +2,7 @@
 import markdown
 import re
 
-def makeExtension(configs=None) :
+def makeExtension(configs={}) :
     return TypografixExtension(configs=configs)
     
 def is_block(node):
